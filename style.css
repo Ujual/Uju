@@ -21,14 +21,14 @@
 }
 
 .bg {
-    background-image: url(/images/h2.jpg);
+    background-image: url(h2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 .bglight {
-    background-image: url(/images/bg.jpg);
+    background-image: url(bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -51,7 +51,7 @@
 
 @font-face {
     font-family: Hack1;
-    src: url(/fonts/GlitchSmasherDemo-K7KZZ.otf);
+    src: url(GlitchSmasherDemo-K7KZZ.otf);
 }
 
 @keyframes typing {
@@ -68,7 +68,7 @@
 
 @font-face {
     font-family: Hacking;
-    src: url(/fonts/Hacked-KerX.ttf);
+    src: url(Hacked-KerX.ttf);
 }
 
 header {
