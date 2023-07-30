@@ -22,34 +22,35 @@ $(document).ready(function() {
 
     });
     $('.pt-trigger2').click(function() {
-        $('#aboutme').fadeIn(1000);
         $('#home').hide(1000);
+        $('#aboutme').fadeIn(1000);
         $('#resume').hide(1000);
         $('#portfolio').hide(1000);
-        $('#contact').hide(1000)
+        $('#contact').hide(1000);
+
     });
     $('.pt-trigger3').click(function() {
-        $('#resume').fadeIn(1000);
         $('#home').hide(1000);
         $('#aboutme').hide(1000);
+        $('#resume').fadeIn(1000);
         $('#portfolio').hide(1000);
         $('#contact').hide(1000);
 
     });
     $('.pt-trigger4').click(function() {
-        $('#portfolio').fadeIn(1000);
         $('#home').hide(1000);
         $('#aboutme').hide(1000);
         $('#resume').hide(1000);
+        $('#portfolio').fadeIn(1000);
         $('#contact').hide(1000);
 
     });
     $('.pt-trigger5').click(function() {
-        $('#contact').fadeIn(1000);
         $('#home').hide(1000);
         $('#aboutme').hide(1000);
         $('#resume').hide(1000);
         $('#portfolio').hide(1000);
+        $('#contact').fadeIn(1000);
 
 
     });
