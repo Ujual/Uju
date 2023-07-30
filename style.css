@@ -187,3 +187,8 @@ section {
 #aboutme {
     display: none;
 }
+
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
