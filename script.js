@@ -19,7 +19,6 @@ $(document).ready(function() {
         $('#resume').hide(1000);
         $('#portfolio').hide(1000);
         $('#contact').hide(1000);
-
     });
     $('.pt-trigger2').click(function() {
         $('#home').hide(1000);
@@ -27,7 +26,6 @@ $(document).ready(function() {
         $('#resume').hide(1000);
         $('#portfolio').hide(1000);
         $('#contact').hide(1000);
-
     });
     $('.pt-trigger3').click(function() {
         $('#home').hide(1000);
@@ -35,7 +33,6 @@ $(document).ready(function() {
         $('#resume').fadeIn(1000);
         $('#portfolio').hide(1000);
         $('#contact').hide(1000);
-
     });
     $('.pt-trigger4').click(function() {
         $('#home').hide(1000);
@@ -43,7 +40,6 @@ $(document).ready(function() {
         $('#resume').hide(1000);
         $('#portfolio').fadeIn(1000);
         $('#contact').hide(1000);
-
     });
     $('.pt-trigger5').click(function() {
         $('#home').hide(1000);
@@ -51,6 +47,7 @@ $(document).ready(function() {
         $('#resume').hide(1000);
         $('#portfolio').hide(1000);
         $('#contact').fadeIn(1000);
+        $('.collapsibleNavbar').fadeOut(1000);
 
 
     });
