@@ -72,8 +72,7 @@
 }
 
 header {
-    width: 100%;
-    position: sticky;
+    min-width: 100%;
 }
 
 .side {
