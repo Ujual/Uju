@@ -88,6 +88,7 @@ header {
     max-width: 50%;
     min-width: 17%;
     overflow-y: scroll;
+    z-index: 1;
 }
 
 .img1 {
@@ -143,7 +144,7 @@ li {
 
 section {
     height: 100vh;
-    background-color: transparent;
+    background-color: rgb(106, 134, 150);
 }
 
 .bb {
@@ -184,7 +185,10 @@ section {
     color: rgb(30, 88, 88);
 }
 
-#aboutme {
+#aboutme,
+#resume,
+#portfolio,
+#contact {
     display: none;
 }
 
