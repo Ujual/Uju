@@ -88,7 +88,7 @@
             #collapsibleNavbar {
                 max-width: 50%;
                 min-width: 17%;
-                overflow-y: none;
+                overflow-y: hidden;
                 z-index: 1;
             }
             
@@ -235,7 +235,7 @@
             .abt {
                 text-align: center;
                 align-items: center;
-                overflow-y: scroll;
+                overflow-y: hidden;
                 position: fixed;
                 margin-left: 300px;
                 margin-right: 600px;
