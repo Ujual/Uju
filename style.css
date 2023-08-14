@@ -36,6 +36,14 @@
             
             .name {
                 color: rgb(32, 194, 14);
+                font-family: 'Times New Roman', Times, serif;
+            }
+            
+            .head {
+                color: #555;
+                font-family: Hacking;
+                font-weight: 700;
+                font-size: 50px;
             }
             
             .type {
@@ -188,6 +196,7 @@
             
             .n2 {
                 color: rgb(0, 0, 0);
+                font-family: 500;
             }
             
             #aboutme,
