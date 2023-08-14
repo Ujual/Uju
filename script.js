@@ -6,7 +6,9 @@ $(document).ready(function() {
         $('.n1').removeClass('name').addClass('n2')
         $('.navbar').removeClass('navbar-dark bg-dark').addClass('navbar-light navclr')
         $('.abt').removeClass('bg-dark').addClass('bg-light')
+        $('.rsm').removeClass('bg-dark').addClass('bg-light')
         $('.imm1').removeClass('imgabt').addClass("imgabt1")
+        $('.bbl').removeClass('border-block-top-110').addClass("border-block-top-110ch")
     });
     $('.dark').click(function() {
         $('body').removeClass("bglight").addClass('bg')
@@ -15,7 +17,9 @@ $(document).ready(function() {
         $('.imm').removeClass('img2').addClass("img1")
         $('.navbar').addClass('navbar-dark bg-dark').removeClass('bg-light navbar-light')
         $('.abt').addClass('bg-dark').removeClass('bg-light')
+        $('.rsm').addClass('bg-dark').removeClass('bg-light')
         $('.imm1').addClass('imgabt').removeClass("imgabt1")
+        $('.bbl').removeClass('border-block-top-110ch').addClass("border-block-top-110")
 
     });
     $('.pt-trigger').click(function() {
